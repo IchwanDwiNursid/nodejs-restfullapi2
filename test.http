@@ -1,0 +1,136 @@
+POST http://localhost:8080/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+    "username" : "ichwan",
+    "password" : "rahasia",
+    "name" : "Ichwan Dwi Nursid"
+}
+
+### 
+
+POST http://localhost:8080/api/users/login
+Content-Type: application/json
+Accept: application/json
+
+{
+    "username" : "ichwan",
+    "password" : "rahasia"
+}
+
+### 90021178-a10f-4511-9f00-1eb83c7bf0cc
+
+GET http://localhost:8080/api/users/current
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+###
+
+PATCH  http://localhost:8080/api/users/current
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+{
+    "name" : "ichwan boys"
+}
+
+###
+DELETE  http://localhost:8080/api/users/logout
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+###
+POST http://localhost:8080/api/contacts
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+{
+    "first_name" : "gak habis",
+    "last_name" : "fikri",
+    "email" : "gakhabisfikri@pzn.com",
+    "phone" : "085987654321"
+}
+
+###
+GET http://localhost:8080/api/contacts
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+###
+GET http://localhost:8080/api/contacts/9814
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+### 
+PUT http://localhost:8080/api/contacts/9816
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+{
+    "first_name": "samson",
+    "last_name": "jati",
+    "email": "diluarnurul@pzn.com",
+    "phone": "085123456789"
+}
+
+###
+DELETE http://localhost:8080/api/contacts/9814
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+###
+
+POST http://localhost:8080/api/contacts/9815/addresses
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+{
+    "street" : "jalan menuju kesengsaraan",
+    "city" : "wakanda ",
+    "province" : "jawa selatan",
+    "country" : "dutch",
+    "postal_code" : "567765"
+
+}
+###
+
+GET http://localhost:8080/api/contacts/9815/addresses
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+###
+GET http://localhost:8080/api/contacts/9815/addresses/447
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+###
+PUT http://localhost:8080/api/contacts/9815/addresses/447
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202
+
+{
+    "street": "jalan menuju kemewahan",
+    "city": "los polos hermanos",
+    "province": "bengkulu",
+    "country": "jepang",
+    "postal_code": "3457923"
+}
+
+###
+DELETE http://localhost:8080/api/contacts/9815/addresses/446
+Content-Type: application/json
+Accept: application/json
+Authorization: f667888e-01cf-46ad-9373-30251c80d202

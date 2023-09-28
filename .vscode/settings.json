@@ -1,0 +1,38 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#f753dc",
+        "activityBar.background": "#f753dc",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#cdf40b",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#f753dc",
+        "statusBar.background": "#f522d2",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#f753dc",
+        "statusBarItem.remoteBackground": "#f522d2",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#f522d2",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#f522d299",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#F522D2",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "localhost",
+            "database": "belajar_nodejs_restful_api",
+            "username": "root",
+            "password": "iwan"
+        }
+    ]
+}
